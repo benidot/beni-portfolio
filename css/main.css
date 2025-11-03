@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --text: rgb(72, 72, 72);
+    --background: rgb(255, 255, 255);
+    --accent: rgb(255, 255, 255);
+}
+
+* {
+    color: var(--text);
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Figtree', Tahoma, Geneva, Verdana, sans-serif;
+    /*white-space-collapse: break-spaces;*/
+}
+
+a, p {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+body {
+    background-image: url("../img/bg.png") cover fixed center center no-repeat;
+}
+
+
+/* classes */
+
+.top {
+    /*background-color: var(--accent);*/
+    width: 100h;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+    box-shadow: 0px 0px 100px 100px white;
+    z-index: 1;
+}
+
+.bodoni {
+    font-family: "Bodoni Moda"; 
+}
+
+.navi {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
