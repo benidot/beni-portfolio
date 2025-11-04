@@ -37,7 +37,10 @@ a:hover {
 }
 
 body {
-    background-image: url("../img/bg.png") cover fixed center center no-repeat;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
